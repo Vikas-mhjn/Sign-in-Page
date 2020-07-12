@@ -1,0 +1,96 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+body#sign-in-body {
+    display: block;
+    background-color:rgb(32, 32, 32);
+}
+
+div.Container {
+    background-image: linear-gradient(rgb(84, 82, 87), #1E1C20);
+    height: 600px;         
+    width: 60%;
+    margin: 10px auto 0px auto;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+h1.header{
+    color: rgb(216, 208, 208);
+    margin-top: 50px;
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+    padding: 20px;
+}
+
+h2.header1{
+    margin-top: 10px;
+    color: rgb(216, 208, 208);
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+input.field-1{
+    margin: 10px;
+    background-color: rgb(45, 48, 48);
+    width: 70%;
+    padding: .375rem .75rem;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 1rem;
+    border: 1px solid #353636;
+    color: rgb(255, 255, 255);
+}
+
+input.field-1:focus {
+    outline: none;
+}
+
+.form-check {
+    float: left;
+    margin-left: 10rem;
+}
+
+.form-check-label {
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.form-check-input {
+    margin-top: .3rem;
+    margin-left: -1.25rem;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn {
+    background-color: rgb(73, 77, 77);
+    padding: 10px 50px;
+    border-radius: 8px;
+    margin-left: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Fondamento', cursive;
+}
+
+.btn:focus {
+    outline: none;
+}
+.btn:hover {
+    background-color: rgb(194, 192, 192);
+}
+
+a.NewAC {
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
