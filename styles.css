@@ -11,8 +11,8 @@ body#sign-in-body {
 
 div.Container {
     background-image: linear-gradient(rgb(84, 82, 87), #1E1C20);
-    height: 600px;         
-    width: 60%;
+    height: 650px;         
+    width: 61%;
     margin: 10px auto 0px auto;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
@@ -35,7 +35,7 @@ h2.header1{
 }
 
 input.field-1{
-    margin: 10px;
+    margin: 12px;
     background-color: rgb(45, 48, 48);
     width: 70%;
     padding: .375rem .75rem;
